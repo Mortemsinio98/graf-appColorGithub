@@ -1,0 +1,55 @@
+/* Fondo general */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Card principal */
+.app-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+}
+
+/* Recuadro de color */
+.color-box {
+    width: 100%;
+    height: 160px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05);
+    transition: background-color 0.3s ease;
+}
+
+/* Inputs numéricos */
+input[type="number"] {
+    border-radius: 10px;
+}
+
+/* Color picker */
+input[type="color"] {
+    width: 70px;
+    height: 45px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Labels */
+.form-label {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+/* Código HEX */
+#hexCode {
+    font-size: 1.1rem;
+    color: #764ba2;
+}
+
+/* Sliders */
+.form-range {
+    accent-color: #764ba2;
+}
